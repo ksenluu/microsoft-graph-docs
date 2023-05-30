@@ -80,6 +80,12 @@ The data available is from the last 21 days (about three weeks). For example, if
 |--|--|--|--|
 | VivaInsightsDataset_v0  | Contains Viva Insights metrics. | <ul><li> [Sample](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/sampledatasets/VivaInsightsDataset_v0.json)</li><li>[Schema](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/datasetschemas/VivaInsightsDataSet_v0.md)</li></ul> | Requires Viva Insights license |
 
+### Viva Engage
+| Dataset name | Description | Sample and Schema | Billing |
+|--|--|--|--|
+| EngagementMessageMetadataDataset_v0  | Contains Viva Engage message metadata. | <ul><li> [Sample](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/sampledatasets/EngagementMessageMetadataDataset_v0.json)</li><li>[Schema](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/datasetschemas/EngagementMessageMetadataDataset_v0.md)</li></ul> | Free |
+
+
 ## Regions
 
 Microsoft Graph Data Connect supports extracting data from a variety of Microsoft 365 regions. To successfully move data from the Microsoft 365 datacenter into your Microsoft Azure storage, the Azure Synapse or Azure Data Factory instance and the Azure storage location must both map to a supported region for the location of the Microsoft 365 data. 
